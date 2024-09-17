@@ -35,4 +35,4 @@ valor_max = 200
 df = gerar_dados_ficticios(500, category, title, valor_min, valor_max)
 
 # Salvando em um arquivo CSV
-df.to_csv('faturas.csv', index=False)
+df.to_csv('Faturas_nubank/faturas.csv', index=False)
