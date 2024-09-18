@@ -69,4 +69,4 @@ Depois de configurar a nova fonte de dados, o Power BI atualizará automaticamen
 
 Este projeto foi criado por [Luis Laynes](https://github.com/luisgklaynes) com colaboração de [Isaque Menezes](https://github.com/Isaquemz/). Sugestões de melhorias ou novos recursos são bem-vindas! Sinta-se à vontade para baixar adicionar dashboards ou personalizar com as suas necessidades.
 
-Clique [aqui](https://app.powerbi.com/groups/me/reports/8d6b197e-5781-4c64-a7b9-9c7917ea6465/2e34f3a52277b0a293d8?experience=power-bi) para ver dashboard publicado.
+Clique [aqui](https://app.powerbi.com/groups/me/reports/8d6b197e-5781-4c64-a7b9-9c7917ea6465/2e34f3a52277b0a293d8?experience=power-bi](https://app.powerbi.com/view?r=eyJrIjoiMDhmYjkwNTgtYmFiYi00ODJlLWE5N2EtNzZjZWUyNDVhZWM4IiwidCI6IjdlZjE5ZDRkLTNkMjUtNDhhNi1iOTRmLTRjMmI3MmIwMWVkNSJ9)) para ver dashboard publicado.
