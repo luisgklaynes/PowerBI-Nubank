@@ -4,7 +4,7 @@
 
 Este projeto é um **dashboard de Power BI** que permite visualizar métricas de gastos categorizados das faturas do cartão de crédito do **Nubank**. O objetivo principal é fornecer uma visão detalhada sobre os gastos mensais, permitindo ao usuário identificar categorias de maior despesa e acompanhar padrões de consumo ao longo do tempo.
 
-A grande vantagem deste dashboard é que o usuário pode baixar o arquivo `.pbix` (Power BI), ajustar a fonte de dados para sua própria pasta, e fazer o download de suas faturas do Nubank diretamente do site para visualização e análise.
+A grande vantagem deste dashboard é que o usuário pode baixar o arquivo `.pbix` (Power BI), ajustar a fonte de dados para sua própria pasta e salvar as faturas no diretório definido sem precisar manipular ou unifcar os arquivos.
 
 ## Funcionalidades
 
@@ -26,12 +26,15 @@ Siga os passos abaixo para configurar o dashboard com os seus próprios dados:
 
 ### 1. Faça o Download do Arquivo
 
-Baixe o arquivo do projeto (`.pbix`) a partir deste repositório.
+Baixe o arquivo do projeto (`.pbix`) a partir deste repositório.  
+
+<img src="https://github.com/luisgklaynes/PowerBI-Nubank/blob/main/Tutorial/Download.png?raw=true" alt="Download" width="350"/>  
 
 ### 2. Baixe Suas Faturas do Nubank
 
 1. Acesse sua conta Nubank através do [site oficial](https://nubank.com.br/).
-2. No menu de **Cartão de Crédito**, baixe as faturas mensais no formato `.csv`.
+2. No menu de **Cartão de Crédito**, baixe as faturas mensais no formato `.csv` para um diretório no seu computador. Exemplo: `C:\minhas_faturas\`
+<img src="https://github.com/luisgklaynes/PowerBI-Nubank/blob/main/Tutorial/Baixando%20faturas%20nubank.png?raw=true" alt="Download_fatura" width="750"/>  
 
 ### 3. Ajuste a Fonte de Dados no Power BI
 
@@ -39,14 +42,9 @@ Baixe o arquivo do projeto (`.pbix`) a partir deste repositório.
 2. No menu superior, selecione a opção **Transformar Dados**.
 <img src="https://github.com/luisgklaynes/PowerBI-Nubank/blob/main/Tutorial/Alterar%20fonte%20de%20dados.png?raw=true" alt="Logo do Projeto" width="500"/>
 
-3. No painel de **Consultas**, você verá a consulta que carrega os dados das faturas. Clique nela e, em seguida, clique no botão **Fonte** no painel superior.
-4. Atualize o caminho da pasta para apontar para o local onde você salvou suas faturas.
+3. Atualize o caminho da pasta para apontar para o local onde você salvou suas faturas. Exemplo: `C:\minhas_faturas\`
    
-   - Exemplo:
-     ```plaintext
-     C:\meu_diretorio\minhas_faturas\
-     ```
-5. Após ajustar o caminho da fonte, clique em **Fechar e Aplicar** para carregar os novos dados.
+5. Após ajustar o caminho da fonte, clique em **Atualizar** para carregar os novos dados.
 
 ### 4. Atualize e Visualize
 
@@ -59,7 +57,7 @@ Depois de configurar a nova fonte de dados, o Power BI atualizará automaticamen
   
 ## Contribuições
 
-Este projeto foi criado para uso pessoal e educativo. Sugestões de melhorias ou novos recursos são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
+Este projeto foi criado para uso pessoal e educativo. Sugestões de melhorias ou novos recursos são bem-vindas! Sinta-se à vontade para baixar adicionar dashboards ou personalizar.
 
 ## Licença
 
